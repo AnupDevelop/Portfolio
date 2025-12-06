@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anup - Developer Portfolio </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="script.js"></script>
+    <header>
+        <nav>
+            <div class="left">
+                <div class="logo"><img class="logo" src="logo.jpg" alt=""></div> AnupDevelops
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hey, My name is <span class="purple">Anup </span>
+                <div>and I am a proffesional </div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="webdev.webp" alt="" width="130%">
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+    var typed = new Typed('#element', {
+      strings: ['Web designer.', '&amp; Web developer.'],
+      typeSpeed: 50,
+    });
+  </script>
+
+</body>
+
+</html>
